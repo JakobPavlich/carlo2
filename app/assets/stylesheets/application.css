@@ -1,0 +1,275 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+ h2 {
+    color:cadetblue;
+    font-size: 2rem;
+    font-family: "Smooch sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Playwrite VN Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.bitcount-grid-double {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    font-size: 4rem;
+}
+p {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align:justify;
+}
+ol li {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align:left;
+}
+
+img.tau {
+    width: 30%;
+    margin-right: 0px;
+    display: block;
+    margin-left: auto;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;;
+}
+
+.container2 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    background-color:whitesmoke;
+    padding: 30px;;
+    border-radius: 15px;
+}
+
+.container3 {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 1.5rem;
+    background-color:whitesmoke;
+    padding: 30px;;
+    border-radius: 15px;
+    text-align: center;
+}
+.container5 {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 1.5rem;
+    background-color:whitesmoke;
+    padding: 30px;;
+    border-radius: 50px;
+    text-align: center;
+}
+.container5 p {
+    text-align: center;
+}
+
+.container3 p {
+    text-align: center;
+}
+
+#novo {
+    color:brown
+}
+
+body {
+    background-color:blanchedalmond;
+}
+
+#sobota {
+    background-color:lavender;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+    font-size: 2.5rem !important;
+    color: rgb(30, 126, 130);
+}
+#ikona {
+    font-size: 10rem !important;
+}
+.material-symbols-outlined:hover {
+    color: rgb(255, 20, 147);
+}
+#drugi:hover {
+    border: 5px solid plum;
+    border-radius: 50px;
+}
+.stop {
+    color:burlywood;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+/* CSS */
+.button {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #F082AC;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 5px;
+    background-color: #fe8cb8;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+#sredina {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container4 p {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:lightslategray;
+    text-align: justify;
+  font-size: 1.2rem;
+}
+
+
+.container4 h3 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+  color:aliceblue;
+  text-align: justify;
+  padding: 10px;
+  background-color: thistle;
+  border-radius: 10px;
+}
+
+.container4 {
+    max-width: 400px;
+    margin: 15px auto;
+    background-color:whitesmoke;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+h4 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color:darkslateblue;
+}
+
+.container6 {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 1.5rem;
+    background-color:whitesmoke;
+    padding: 30px;;
+    border-radius: 50px;
+    text-align: center;
+}
+.container6 p {
+    text-align: center;
+
+}
+
+.container6 h1 {
+    font-size: 4rem;
+}
+
+#terezija:hover {
+    color:crimson;
+}
+#sonce{
+    color:darkorange;
+    font-size: 10rem;
+}
+#sonce:hover {
+    color:gold;
+}
