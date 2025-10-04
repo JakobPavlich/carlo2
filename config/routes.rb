@@ -12,6 +12,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   root "pages#home"
-  get "new" => "pages#new"
-  get "next" => "pages#next"
+  get "konectedna" => "pages#konectedna"
 end
