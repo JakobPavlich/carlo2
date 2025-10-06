@@ -14,4 +14,5 @@ Rails.application.routes.draw do
   root "pages#home"
   get "konectedna" => "pages#konectedna"
   get "ponedeljek0610" => "pages#ponedeljek0610"
+
 end
