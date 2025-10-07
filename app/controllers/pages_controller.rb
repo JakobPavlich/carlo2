@@ -5,4 +5,6 @@ class PagesController < ApplicationController
   end
   def ponedeljek0610
   end
+  def torek0710
+  end
 end
