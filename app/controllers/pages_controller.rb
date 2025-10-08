@@ -7,4 +7,6 @@ class PagesController < ApplicationController
   end
   def torek0710
   end
+  def sreda0810
+  end
 end
