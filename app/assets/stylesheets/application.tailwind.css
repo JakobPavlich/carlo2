@@ -279,3 +279,15 @@ h4 {
     font-weight: 700;
     margin-bottom: 20px;
 }
+#alarm {
+    color:crimson;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#alarm:hover {
+    color:darkred;
+}
+#poudarjeno:hover {
+    color:orangered;
+}
