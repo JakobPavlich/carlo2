@@ -11,4 +11,6 @@ class PagesController < ApplicationController
   end
   def cetrtek0910
   end
+  def petek1010
+  end
 end
