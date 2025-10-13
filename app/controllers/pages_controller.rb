@@ -13,4 +13,8 @@ class PagesController < ApplicationController
   end
   def petek1010
   end
+  def ponedeljek1310
+  end
+  def praznastran
+  end
 end

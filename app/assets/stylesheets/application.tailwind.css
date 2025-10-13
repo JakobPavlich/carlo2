@@ -144,7 +144,7 @@ body {
 
 /* CSS */
 .button {
-  background-color: #EA4C89;
+  background-color: #3a2cd3;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -182,7 +182,7 @@ ul {
     margin: 0;
 }
 li {
-    background-color: #fe8cb8;
+    background-color: #9992f6;
     border-radius: 15px;
     max-width: 200px;
     margin: 0 auto;
