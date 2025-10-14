@@ -17,4 +17,6 @@ class PagesController < ApplicationController
   end
   def praznastran
   end
+  def torek1410
+  end
 end
