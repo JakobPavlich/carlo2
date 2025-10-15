@@ -291,3 +291,8 @@ h4 {
 #poudarjeno:hover {
     color:orangered;
 }
+
+hr {
+    border: 1px solid lightgray;
+    margin: 20px 0;
+}
