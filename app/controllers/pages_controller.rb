@@ -19,4 +19,6 @@ class PagesController < ApplicationController
   end
   def torek1410
   end
+  def sreda1510
+  end
 end
