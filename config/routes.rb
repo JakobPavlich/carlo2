@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   # Render dynamic PWA files from app/views/pwa/* (remember to link manifest in application.html.erb)
-  # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
-  # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
+  get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
+  get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   # Defines the root path route ("/")
   # root "posts#index"
@@ -22,4 +22,5 @@ Rails.application.routes.draw do
   get "praznastran" => "pages#praznastran"
   get "torek1410" => "pages#torek1410"
   get "sreda1510" => "pages#sreda1510"
+  get "cetrtek1610" => "pages#cetrtek1610"
 end

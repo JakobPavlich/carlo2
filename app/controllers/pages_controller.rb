@@ -21,4 +21,6 @@ class PagesController < ApplicationController
   end
   def sreda1510
   end
+  def cetrtek1610
+  end
 end
