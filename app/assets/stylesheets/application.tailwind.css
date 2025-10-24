@@ -296,3 +296,6 @@ hr {
     border: 1px solid lightgray;
     margin: 50px 100px;
 }
+#book {
+    display: none;
+}
