@@ -25,4 +25,6 @@ class PagesController < ApplicationController
   end
   def petek1710
   end
+  def petek2410
+  end
 end
