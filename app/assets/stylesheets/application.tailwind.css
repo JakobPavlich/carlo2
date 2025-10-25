@@ -299,3 +299,25 @@ hr {
 #book {
     display: none;
 }
+
+.megleno {
+    filter: blur(4px);
+}
+
+.megleno:hover {
+    filter: blur(0px);
+}
+
+.container7 {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 1.5rem;
+
+    padding: 30px;;
+    border-radius: 50px;
+    text-align: center;
+}
+.container7 p {
+    text-align: center;
+}
