@@ -29,4 +29,6 @@ class PagesController < ApplicationController
   end
   def sobota2510
   end
+  def torek2810
+  end
 end
