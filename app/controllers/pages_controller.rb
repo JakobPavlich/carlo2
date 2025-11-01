@@ -33,4 +33,6 @@ class PagesController < ApplicationController
   end
   def sreda2910
   end
+  def sobota0111
+  end
 end

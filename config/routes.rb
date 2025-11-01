@@ -28,4 +28,5 @@ Rails.application.routes.draw do
   get "sobota2510" => "pages#sobota2510"
   get "torek2810" => "pages#torek2810"
   get "sreda2910" => "pages#sreda2910"
+  get "sobota0111" => "pages#sobota0111"
 end
